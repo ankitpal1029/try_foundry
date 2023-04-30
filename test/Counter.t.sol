@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
+// tests deployed to 0xb4c79daB8f259C7Aee6E5b2Aa729821864227e84
+// this will be the deployer if test deploys contracts
+
+// test functions have to be external or public to be picked up by forge
+
 import "forge-std/Test.sol";
 import "../src/Counter.sol";
 
